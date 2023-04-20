@@ -7,7 +7,6 @@ import com.kuehnenagel.cities.exception.ResourceNotFoundException;
 import com.kuehnenagel.cities.mapper.GenericMapper;
 import com.kuehnenagel.cities.repository.CityRepository;
 import com.kuehnenagel.cities.service.CityService;
-import com.kuehnenagel.cities.utils.AppConstants;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;

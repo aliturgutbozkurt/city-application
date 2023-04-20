@@ -3,8 +3,6 @@ package com.kuehnenagel.cities.service;
 import com.kuehnenagel.cities.dto.CityDto;
 import org.springframework.data.domain.Page;
 
-import java.util.List;
-
 public interface CityService {
     void readAndSaveCsvFile(String csvFileName);
 

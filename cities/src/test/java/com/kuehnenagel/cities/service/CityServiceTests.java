@@ -6,7 +6,6 @@ import com.kuehnenagel.cities.exception.ResourceNotFoundException;
 import com.kuehnenagel.cities.mapper.GenericMapper;
 import com.kuehnenagel.cities.repository.CityRepository;
 import com.kuehnenagel.cities.service.impl.CityServiceImpl;
-import com.kuehnenagel.cities.utils.AppConstants;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
