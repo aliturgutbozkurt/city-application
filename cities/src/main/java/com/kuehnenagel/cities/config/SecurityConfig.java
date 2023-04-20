@@ -59,8 +59,6 @@ public class SecurityConfig {
                                 authorize
                                         .requestMatchers(toH2Console())
                                         .permitAll()
-                                        .requestMatchers(HttpMethod.GET, "/api/v1/**")
-                                        .permitAll()
                                         .requestMatchers("/api/v1/auth/**")
                                         .permitAll()
                                         .anyRequest()
